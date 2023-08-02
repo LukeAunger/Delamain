@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+    for setup of the link between server and database open up command prompt
+    on the root folder of the project. The following command will setup postgres tools.
+    "Npgsql.EntityFrameworkCore.PostgreSQL". Save the connection string to your database in the "appsettings.json" file
+    connection string example: "Host=localhost; Database=AandEBacklog; Username=postgres; Password=1111;"
+    update the datacontext to use the setup connection string.
+
+    make sure you have dotnet Microsoft.EntityFrameworkCore.Tools.
+    Setup the inital creat with the command "dotnet ef migrations add InitialCreate". to update the already created database setup
+    run command "dotnet ef database update".
+
+    you also need to run the  " dotnet ef migrations remove " command first to
+    remove previous migrations youve made so you can cleanly make the changes
+
+    Avoid removing any migrations which have already been applied to production databases.
+    Doing so means you won't be able to revert those migrations from the databases,
+    and may break the assumptions made by subsequent migrations.
+
+    To get a list of all the migrations made run the " dotnet ef migrations list " command
+
+    
+    Resetting all migrations
+    In some extreme cases, it may be necessary to remove all migrations and start over. This can be easily done by deleting your Migrations folder and dropping your database; at that point you can create a new initial migration, which will contain your entire current schema.
+
+    It's also possible to reset all migrations and create a single one without losing your data. This is sometimes called "squashing", and involves some manual work:
+
+    Back up your database, in case something goes wrong.
+    In your database, delete all rows from the migrations history table (e.g. DELETE FROM [__EFMigrationsHistory] on SQL Server).
+    Delete your Migrations folder.
+    Create a new migration and generate a SQL script for it (dotnet ef migrations script).
+    Insert a single row into the migrations history, to record that the first migration has already been applied, since your tables are already there. The insert SQL is the last operation in the SQL script generated above, and resembles the following (don't forget to update the values):
+    SQL
+
+    Copy
+    INSERT INTO [__EFMigrationsHistory] ([MIGRATIONID], [PRODUCTVERSION])
+    VALUES (N'<full_migration_timestamp_and_name>', N'<EF_version>');
+-->

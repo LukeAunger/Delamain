@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:model="clr-namespace:delamain_maui.Models"
+             x:Class="delamain_maui.Views.RequestEntryPage"
+             Title="RequestEntryPage">
+
+    <VerticalStackLayout Spacing="10">
+        <Label
+            Margin="0,10,0,0"
+            FontFamily="OpenSans-Regular"
+            Text="If you can find someone to help you do so."
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Label
+            Margin="0,10,0,0"
+            FontFamily="OpenSans-Regular"
+            Text="If you are not connected to the internet the request will not be made and you will be redirected to the main page."
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <!-- The Binding in this editor is bound to thw Symptoms variable or object property in the cs page if i wanted to change -->
+        <!-- The binding i would change it to a different variable or property -->
+        <Editor Placeholder="Enter your accident or emergancy: "
+                x:Name="symptom"
+                Text="{Binding Symptoms}"
+                HeightRequest="100"/>
+
+            <Slider
+                Margin="0,20,0,0"
+                Minimum="0"
+                Maximum="100"
+                ValueChanged="heartSlider_ValueChanged_1"
+                x:Name="heartSlider"
+                Value="0"
+            />
+        <Entry x:Name="heartvalue" Text="{Binding heartvalue}" Placeholder="Enter heart rate" HorizontalTextAlignment="Center"/>
+
+            <Slider
+                Margin="0,20,0,0"
+                Minimum="0"
+                Maximum="100"
+                Value="0"
+                ValueChanged="RespiratorySlider_ValueChanged"
+                x:Name="RespiratorySlider"
+            />
+        <Entry x:Name="Respiratoryvalue" Text="{Binding Respiratoryvalue}" Placeholder="Enter Respiratory rate" HorizontalTextAlignment="Center"/>
+
+            <Slider
+                Margin="0,20,0,0"
+                Minimum="1"
+                Maximum="100"
+                ValueChanged="TempSlider_ValueChanged"
+                x:Name="TempSlider"
+            />
+        <Entry x:Name="Tempvalue" Text="{Binding Respiratoryvalue}" Placeholder="Enter your tempurature" HorizontalTextAlignment="Center"/>
+                <Label Text="{Binding Error}"/>
+        <Button Text="Save"
+        Command="{Binding SaveRequestCommand}"/>
+    </VerticalStackLayout>
+</ContentPage>

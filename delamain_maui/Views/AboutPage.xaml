@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="delamain_maui.Views.AboutPage"
+             Title="AboutPage">
+    <!-- Layout children in two rows -->
+    <Grid RowDefinitions="Auto,*,*">
+        <VerticalStackLayout Grid.Row="1"
+                             Spacing="10">
+                    <Label Text="Welcome to Delamain"
+                           FontSize="42"
+                           Margin="0,50,0,0"
+                           HorizontalTextAlignment="Center"/>
+                    <Label Text="Your application for accident and emergancy"
+                           HorizontalTextAlignment="Center"/>
+        </VerticalStackLayout>
+        <!-- Layout children vertically -->
+        <StackLayout Grid.Row="2"
+                     Spacing="10"
+                     HorizontalOptions="Center">
+            <Label Text="How to check your respiratory rate:"
+                   Margin="5,0,0,0"/>
+            <Label Text="The respiration rate is the number of breaths a person takes per minute. The rate is usually measured when a person is at rest and simply involves counting the number of breaths for one minute by counting how many times the chest rises."
+                   HorizontalTextAlignment="Center"
+                   FontAttributes="Bold"/>
+            <Label Text="How to check your heart rate: "
+                   Margin="5,0,0,0"/>
+            <Label Text="place your index and middle fingers on the side of their neck, in the soft hollow area just beside their windpipe. using a clock or watch that counts seconds, count how many beats you feel in a minute, or count them over 30 seconds and multiply the number by 2 to work how many beats a minute."
+                   HorizontalTextAlignment="Center"
+                   FontAttributes="Bold"
+                   Margin="5,0,0,5"/>
+        </StackLayout>
+    </Grid>
+</ContentPage>

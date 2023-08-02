@@ -1,0 +1,65 @@
+is_global = true
+build_property.TargetFramework = net7.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = delamain_maui
+build_property.ProjectDir = /Users/luke/Documents/GitHub/Delamain_Project/delamain_maui/delamain_maui/
+
+[/Users/luke/Documents/GitHub/Delamain_Project/delamain_maui/delamain_maui/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = delamain_maui.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[/Users/luke/Documents/GitHub/Delamain_Project/delamain_maui/delamain_maui/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = delamain_maui.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[/Users/luke/Documents/GitHub/Delamain_Project/delamain_maui/delamain_maui/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = delamain_maui.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Colors.xaml
+
+[/Users/luke/Documents/GitHub/Delamain_Project/delamain_maui/delamain_maui/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = delamain_maui.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Styles.xaml
+
+[/Users/luke/Documents/GitHub/Delamain_Project/delamain_maui/delamain_maui/Views/AboutPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = delamain_maui.Views.AboutPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/AboutPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/AboutPage.xaml
+
+[/Users/luke/Documents/GitHub/Delamain_Project/delamain_maui/delamain_maui/Views/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = delamain_maui.Views.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/MainPage.xaml
+
+[/Users/luke/Documents/GitHub/Delamain_Project/delamain_maui/delamain_maui/Views/RequestEntryPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = delamain_maui.Views.RequestEntryPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/RequestEntryPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/RequestEntryPage.xaml
+
+[/Users/luke/Documents/GitHub/Delamain_Project/delamain_maui/delamain_maui/Views/StatusPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = delamain_maui.Views.StatusPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/StatusPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/StatusPage.xaml
+
+[/Users/luke/Documents/GitHub/Delamain_Project/delamain_maui/delamain_maui/Views/UserPreferences.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = delamain_maui.Views.UserPreferences.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/UserPreferences.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/UserPreferences.xaml

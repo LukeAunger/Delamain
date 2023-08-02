@@ -1,0 +1,13 @@
+/Users/luke/Documents/GitHub/Delamain_Project/delamain_maui/delamain_maui/bin/Debug/net7.0/delamain_maui.deps.json
+/Users/luke/Documents/GitHub/Delamain_Project/delamain_maui/delamain_maui/bin/Debug/net7.0/delamain_maui.dll
+/Users/luke/Documents/GitHub/Delamain_Project/delamain_maui/delamain_maui/bin/Debug/net7.0/delamain_maui.pdb
+/Users/luke/Documents/GitHub/Delamain_Project/delamain_maui/delamain_maui/obj/Debug/net7.0/delamain_maui.csproj.AssemblyReference.cache
+/Users/luke/Documents/GitHub/Delamain_Project/delamain_maui/delamain_maui/obj/Debug/net7.0/delamain_maui.GeneratedMSBuildEditorConfig.editorconfig
+/Users/luke/Documents/GitHub/Delamain_Project/delamain_maui/delamain_maui/obj/Debug/net7.0/delamain_maui.AssemblyInfoInputs.cache
+/Users/luke/Documents/GitHub/Delamain_Project/delamain_maui/delamain_maui/obj/Debug/net7.0/delamain_maui.AssemblyInfo.cs
+/Users/luke/Documents/GitHub/Delamain_Project/delamain_maui/delamain_maui/obj/Debug/net7.0/delamain_maui.csproj.CoreCompileInputs.cache
+/Users/luke/Documents/GitHub/Delamain_Project/delamain_maui/delamain_maui/obj/Debug/net7.0/XamlC.stamp
+/Users/luke/Documents/GitHub/Delamain_Project/delamain_maui/delamain_maui/obj/Debug/net7.0/delamain_maui.dll
+/Users/luke/Documents/GitHub/Delamain_Project/delamain_maui/delamain_maui/obj/Debug/net7.0/refint/delamain_maui.dll
+/Users/luke/Documents/GitHub/Delamain_Project/delamain_maui/delamain_maui/obj/Debug/net7.0/delamain_maui.pdb
+/Users/luke/Documents/GitHub/Delamain_Project/delamain_maui/delamain_maui/obj/Debug/net7.0/ref/delamain_maui.dll

@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="delamain_maui.Views.UserPreferences"
+             Title="UserPreferences">
+    <ScrollView>
+        <VerticalStackLayout Spacing="20" Margin="10,0,0,10">
+        <Label 
+        Text="Your details"
+        FontSize="32"
+        VerticalOptions="Center" 
+        HorizontalOptions="Center" />
+
+        <Label
+        HorizontalOptions="Center"
+        HorizontalTextAlignment="Center"
+        Text="To make the application easier to use but still precise you need to fill out these details before using the app."/>
+
+        <Label
+        HorizontalOptions="Center"
+        HorizontalTextAlignment="Center"
+        Text="Fill In your name then adjust sliders and tick boxes to what applies to you."/>
+
+        <!-- Users details start here -->
+        <Label
+        HorizontalOptions="Center"
+        HorizontalTextAlignment="Center"
+        Text="Only you and the medical proffesional will be able to see this data."/>
+        <Entry x:Name="username" Text="{Binding username}" Placeholder="Enter your name"/>
+
+        <Grid ColumnDefinitions="*,*">
+        <Slider Minimum="0" Maximum="100"
+                x:Name="ageslider"
+                ValueChanged="Slider_ValueChanged_1"/>
+        <Label Grid.Column="2" Text="your age"
+               HorizontalOptions="Center"/>
+        </Grid>
+        <Entry x:Name="agesliderlabel" Text="{Binding agesliderlabel}"/>
+
+        <Grid ColumnDefinitions="*,*">
+        <Slider Minimum="0" Maximum="100"
+                ValueChanged="Slider_ValueChanged"
+                x:Name="bmislider"/>
+        <Label Grid.Column="2" Text="your BMI"
+               HorizontalOptions="Center"
+               />
+        </Grid>
+        <Entry x:Name="bmisliderlabel" Text="{Binding bmisliderlabel}"/>
+
+        <Grid ColumnDefinitions="*,*">
+            <Switch HorizontalOptions="End" x:Name="sexmale"
+                    IsToggled="{Binding sexmale}"
+                    />
+            <Label Text="male sex"
+                   HorizontalTextAlignment="Start"
+                   VerticalOptions="Center"
+                   Grid.Column="2"/>
+        </Grid>
+
+        <Grid ColumnDefinitions="*,*">
+            <Switch HorizontalOptions="End" x:Name="sexfemale"
+                    IsToggled="{Binding sexfemale}"/>
+            <Label Text="female sex"
+                   HorizontalTextAlignment="Start"
+                   VerticalOptions="Center"
+                   Grid.Column="2"/>
+        </Grid>
+
+        <Grid ColumnDefinitions="*,*">
+            <Switch HorizontalOptions="End" x:Name="diabetes"
+                    IsToggled="{Binding diabetes}"/>
+            <Label Text="Do you have diabetes?"
+                   HorizontalTextAlignment="Start"
+                   VerticalOptions="Center"
+                   Grid.Column="2"/>
+        </Grid>
+
+        <Grid ColumnDefinitions="*,*">
+            <Switch HorizontalOptions="End" x:Name="lowiron"
+                    IsToggled="{Binding lowiron}"/>
+            <Label Text="Do you have low iron? "
+            HorizontalTextAlignment="Start"
+            VerticalOptions="Center"
+            Grid.Column="2"/>
+        </Grid>
+
+        <Grid ColumnDefinitions="*,*">
+            <Switch HorizontalOptions="End" x:Name="atrial"
+                    IsToggled="{Binding atrial}"/>
+            <Label Text="Do you have atrial fibrilation? "
+            HorizontalTextAlignment="Start"
+            VerticalOptions="Center"
+            Grid.Column="2"/>
+        </Grid>
+
+        <Grid ColumnDefinitions="*,*">
+            <Switch HorizontalOptions="End" x:Name="highblood"
+                    IsToggled="{Binding highblood}"/>
+            <Label Text="Do you have high blood pressure?"
+                   HorizontalTextAlignment="Start"
+                   VerticalOptions="Center"
+                   Grid.Column="2"/>
+        </Grid>
+
+        <Grid ColumnDefinitions="*,*">
+            <Switch HorizontalOptions="End" x:Name="cholestoral"
+                    IsToggled="{Binding cholestoral}"/>
+            <Label Text="Do you have high cholestoral? "
+            HorizontalTextAlignment="Start"
+            VerticalOptions="Center"
+            Grid.Column="2"/>
+        </Grid>
+
+        <Grid ColumnDefinitions="*,*">
+            <Switch HorizontalOptions="End" x:Name="CHD"
+                    IsToggled="{Binding CHD}"/>
+            <Label Text="Do you have Coronary heart disease? "
+            HorizontalTextAlignment="Start"
+            VerticalOptions="Center"
+            Grid.Column="2"/>
+        </Grid>
+
+        <Grid ColumnDefinitions="*,*">
+            <Switch HorizontalOptions="End" x:Name="lungdisease"
+                    IsToggled="{Binding lungdisease}"/>
+            <Label Text='Do you have Lung disease?'
+            HorizontalTextAlignment="Start"
+            VerticalOptions="Center"
+            Grid.Column="2"/>
+        </Grid>
+
+        <Grid ColumnDefinitions="*,*">
+            <Switch HorizontalOptions="End" x:Name="depression"
+                    IsToggled="{Binding depression}"/>
+            <Label Text="Do you suffer with depression"
+                   HorizontalTextAlignment="Start"
+                   VerticalOptions="Center"
+                   Grid.Column="2"/>
+        </Grid>
+
+        <Entry x:Name="phone" Text="{Binding phone}" Placeholder="Enter your mobile number."/>
+
+
+        <Button Text="Save" HorizontalOptions="Center" Command="{Binding Button_Clicked}"/>
+                <Button Text="Clear" HorizontalOptions="Center" Command="{Binding Button_Clicked_1}"/>
+
+                         <Label Text="{Binding Error}"/>
+        </VerticalStackLayout>
+
+    </ScrollView>
+</ContentPage>

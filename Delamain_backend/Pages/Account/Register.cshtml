@@ -1,0 +1,46 @@
+﻿@page
+@model Delamain_backend.Pages.Account.RegisterModel
+@{
+}
+<div class="container border" style="padding:20px">
+    <form method="post">
+        <div class="text-danger" asp-validation-summary="ModelOnly"></div>
+
+        <div class="form-group row">
+            <div class="col-3">
+                <label asp-for="loginRequest.Email"></label>
+            </div>
+            <div class="col-5">
+                <input type="text" asp-for="loginRequest.Email" class="form-control" placeholder="Enter your email" />
+            </div>
+            <span class="text-danger" asp-validation-for="loginRequest.Email"></span>
+        </div>
+
+        <div class="form-group row">
+            <div class="col-3">
+                <label asp-for="loginRequest.Password"></label>
+            </div>
+            <div class="col-5">
+                <input type="password" asp-for="loginRequest.Password" class="form-control" placeholder="Enter your Password" />
+            </div>
+            <span class="text-danger" asp-validation-for="loginRequest.Password"></span>
+        </div>
+
+        <div class="form-group row">
+            <div class="col-3">
+                <label asp-for="loginRequest.ConfirmPassword"></label>
+            </div>
+            <div class="col-5">
+                <input type="password" asp-for="loginRequest.ConfirmPassword" class="form-control" placeholder="Confirm your Password" />
+            </div>
+            <span class="text-danger" asp-validation-for="loginRequest.ConfirmPassword"></span>
+        </div>
+
+        <div class="form-group row">
+            <div class="col-2">
+                <button class="btn btn-primary" name="loginbutton" type="submit" value="Login">Sign up!</button>
+            </div>
+        </div>
+    </form>
+    <a class="btn btn-link" asp-page="/Account/Login">Login</a>
+</div>

@@ -1,0 +1,113 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Delamain_backend
+build_property.RootNamespace = Delamain_backend
+build_property.ProjectDir = /Users/luke/Documents/GitHub/Delamain_Project/delamain_maui/Delamain_backend/
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/luke/Documents/GitHub/Delamain_Project/delamain_maui/Delamain_backend
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/luke/Documents/GitHub/Delamain_Project/delamain_maui/Delamain_backend/Pages/Account/DeleteUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWNjb3VudC9EZWxldGVVc2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/luke/Documents/GitHub/Delamain_Project/delamain_maui/Delamain_backend/Pages/Account/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWNjb3VudC9Gb3Jnb3RQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/luke/Documents/GitHub/Delamain_Project/delamain_maui/Delamain_backend/Pages/Account/IncorrectToken.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWNjb3VudC9JbmNvcnJlY3RUb2tlbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/luke/Documents/GitHub/Delamain_Project/delamain_maui/Delamain_backend/Pages/Account/InvalidUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWNjb3VudC9JbnZhbGlkVXNlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/luke/Documents/GitHub/Delamain_Project/delamain_maui/Delamain_backend/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWNjb3VudC9Mb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/luke/Documents/GitHub/Delamain_Project/delamain_maui/Delamain_backend/Pages/Account/LoginFailed.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWNjb3VudC9Mb2dpbkZhaWxlZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/luke/Documents/GitHub/Delamain_Project/delamain_maui/Delamain_backend/Pages/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWNjb3VudC9Mb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/luke/Documents/GitHub/Delamain_Project/delamain_maui/Delamain_backend/Pages/Account/PasswordChanged.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWNjb3VudC9QYXNzd29yZENoYW5nZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/luke/Documents/GitHub/Delamain_Project/delamain_maui/Delamain_backend/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWNjb3VudC9SZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/luke/Documents/GitHub/Delamain_Project/delamain_maui/Delamain_backend/Pages/Account/Registererror.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWNjb3VudC9SZWdpc3RlcmVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/luke/Documents/GitHub/Delamain_Project/delamain_maui/Delamain_backend/Pages/Account/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWNjb3VudC9SZXNldFBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/luke/Documents/GitHub/Delamain_Project/delamain_maui/Delamain_backend/Pages/Account/UserVerifyError.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWNjb3VudC9Vc2VyVmVyaWZ5RXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/luke/Documents/GitHub/Delamain_Project/delamain_maui/Delamain_backend/Pages/Account/VerifyPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWNjb3VudC9WZXJpZnlQYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/luke/Documents/GitHub/Delamain_Project/delamain_maui/Delamain_backend/Pages/AwaitVerify.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQXdhaXRWZXJpZnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/luke/Documents/GitHub/Delamain_Project/delamain_maui/Delamain_backend/Pages/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/luke/Documents/GitHub/Delamain_Project/delamain_maui/Delamain_backend/Pages/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/luke/Documents/GitHub/Delamain_Project/delamain_maui/Delamain_backend/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/luke/Documents/GitHub/Delamain_Project/delamain_maui/Delamain_backend/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/luke/Documents/GitHub/Delamain_Project/delamain_maui/Delamain_backend/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/luke/Documents/GitHub/Delamain_Project/delamain_maui/Delamain_backend/Pages/Shared/_LoginStatusPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19Mb2dpblN0YXR1c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/luke/Documents/GitHub/Delamain_Project/delamain_maui/Delamain_backend/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/luke/Documents/GitHub/Delamain_Project/delamain_maui/Delamain_backend/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/luke/Documents/GitHub/Delamain_Project/delamain_maui/Delamain_backend/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/luke/Documents/GitHub/Delamain_Project/delamain_maui/Delamain_backend/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-sza5oa67ja

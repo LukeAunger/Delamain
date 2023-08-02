@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="delamain_maui.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:views="clr-namespace:delamain_maui.Views"
+    Shell.FlyoutBehavior="Disabled">
+    <!-- at the top when calling in resources had an issue about calling stuff and realised that  -->
+    <!-- your creating a variable thats equal to the resource your fetching for use the xaml file -->
+
+        <!-- This brings up the content to display on the page for the user  -->
+        <!-- When creating this had an issue when moving the mainpage into the views folder -->
+        <!-- Fixed by changing the "local:MainPage" to "views:MainPage" and make sure your calling it -->
+
+
+        <TabBar x:Name="Tabbar">
+            <Tab Title="Main" Icon="{FontImage FontFamily=FAS, Glyph=&#xf0f0;}">
+                <ShellContent ContentTemplate="{DataTemplate views:MainPage}" Route="MainPage"/>
+            </Tab>
+
+            
+            <Tab Title="Preferences" Icon="{FontImage FontFamily=FAS, Glyph=&#xf013;}">
+                <ShellContent ContentTemplate="{DataTemplate views:UserPreferences}" Route="UserPreferences"/>
+            </Tab>
+
+            <!-- Example of using icons from fonts in the tabbar had huge issue with getting this to work but this works well -->
+            <Tab Title="About" Icon="{FontImage FontFamily=FAS, Glyph=&#xf05a;}">
+                <ShellContent ContentTemplate="{DataTemplate views:AboutPage}" Route="AboutPage"/>
+            </Tab>
+        </TabBar>
+</Shell>

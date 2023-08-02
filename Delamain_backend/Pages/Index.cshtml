@@ -1,0 +1,43 @@
+@page
+@model Delamain_backend.Pages.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Queuemodel[0].queueordernum)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Queuemodel[0].pushbackcount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Queuemodel[0].Riskscore)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Queuemodel) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.queueordernum)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.pushbackcount)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Riskscore)
+            </td>
+            <td>
+                <a asp-page="./Details" asp-route-id="@item.queueID">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.queueID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
